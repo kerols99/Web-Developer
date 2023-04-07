@@ -1,0 +1,33 @@
+.assign-1-shape-1,
+.assign-1-shape-2,
+.assign-1-shape-3,
+.assign-1-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+}
+
+.assign-1-shape-1 {
+    background-repeat: no-repeat;
+    background-image: url("../img/css-assignment-5-8.png");
+
+}
+
+.assign-1-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+    background-image: url("../img/css-assignment-5-8.png");
+
+}
+
+.assign-1-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-image: url("../img/css-assignment-5-8.png");
+
+}
+
+.assign-1-shape-4 {
+    background-image: url("../img/css-assignment-5-8.png");
+    background-repeat: repeat;
+}

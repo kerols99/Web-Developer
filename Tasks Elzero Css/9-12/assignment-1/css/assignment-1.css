@@ -1,0 +1,25 @@
+.assign-1-shape-1,
+.assign-1-shape-2,
+.assign-1-shape-3 {
+    background-color: #eee;
+    padding: 50px 80px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.assign-1-shape-1 {
+    outline: 10px solid black;
+    border: 10px solid red;
+}
+
+.assign-1-shape-2 {
+    outline: 10px solid black;
+    border: 10px solid;
+    border-color: blue green;
+}
+
+.assign-1-shape-3 {
+    outline: 10px solid black;
+    border: 10px dashed;
+    border-color: red green blue yellow;
+}

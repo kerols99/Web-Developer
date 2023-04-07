@@ -1,0 +1,34 @@
+.assign-1-shape-1 {
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    background-image: url("../img/css-assignment-5-8.png");
+    background-repeat: no-repeat;
+}
+
+.assign-1-shape-2 {
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    background-image: url("../img/css-assignment-5-8.png");
+    background-repeat: repeat-y;
+    margin-bottom: 300px;
+
+}
+
+.assign-1-shape-3 {
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    background-image: url("../img/css-assignment-5-8.png");
+    background-repeat: repeat-x;
+
+}
+
+.assign-1-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-color: #eee;
+    background-image: url("../img/css-assignment-5-8.png");
+    background-repeat: repeat;
+}

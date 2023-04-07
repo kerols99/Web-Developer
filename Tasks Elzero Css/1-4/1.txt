@@ -1,0 +1,23 @@
+/* Any Element With Class Title */
+.title {
+}
+
+
+
+/* one element with id nav */
+#nav {
+}
+
+
+
+/* all div in tha html */
+div {
+}
+
+
+
+
+/* all h2 in tha html */
+h2 {
+}
+
