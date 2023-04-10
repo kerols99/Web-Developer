@@ -1,0 +1,7 @@
+div h1 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 4px 4px #f44336, 6px 6px #2196f3, 8px 8px #9b27b0;
+
+}

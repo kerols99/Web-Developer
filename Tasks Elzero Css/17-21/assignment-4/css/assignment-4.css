@@ -1,0 +1,14 @@
+a {
+    text-align: center;
+    color: white;
+    background-color: #009688;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-bottom: 10px solid #00514a;
+    display: block;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
