@@ -1,0 +1,18 @@
+div {
+    text-align: center;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+.paragraph_1 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.paragraph_2 {
+    font-family: 'Cairo', sans-serif;
+}
+
+.paragraph_3 {
+    font-family: 'Jomhuria', cursive;
+}
