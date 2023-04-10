@@ -1,0 +1,13 @@
+div .child .title {
+    padding: 10px auto;
+    color: red;
+}
+
+.parent .title {
+    color: blue;
+}
+
+div p,
+.title {
+    color: green;
+}
