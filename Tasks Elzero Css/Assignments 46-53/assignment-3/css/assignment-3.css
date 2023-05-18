@@ -1,0 +1,42 @@
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-between ;
+}
+.parent div{
+    background-color: #607d8b;
+    color: white;
+    width: calc(90%/3);
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent .one{
+    order:6 ;
+    height:40px;
+    align-self: flex-end;
+    
+}
+.parent .two{
+    order:5 ;
+
+}.parent .three{
+    order:2 ;
+    height:40px
+
+
+}.parent .four{
+    order:3 ;
+}.parent .five{
+    order:4 ;
+
+}.parent .six{
+    order:1 ;
+
+}
