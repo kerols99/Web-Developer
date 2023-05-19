@@ -1,0 +1,47 @@
+.layout {
+  background-color: #ddd;
+  height:calc(100vh - 16px);
+  display: grid;
+  grid-template-columns:repeat(5,1fr);
+  grid-template-rows: 10% 1fr 10%;
+  grid-template-areas:"header header header header header" " Section Section Section Section Aside" "Footer Footer Footer Footer Footer";
+}
+header{
+  grid-area: header;
+  background-color:#03a9f4;
+  color: white;
+  padding:10px;
+}
+section{
+  grid-area: Section;
+  background-color:#ff5722;
+  color: white;
+  padding:10px;
+}
+aside{
+  grid-area: Aside;
+  background-color:#607d8b;
+  color: white;
+  padding:10px;
+}
+footer{
+  grid-area: Footer;
+  background-color:#009688;
+  color: white;
+  padding:10px;
+}
+header::after{
+  content: "Header";
+}
+section::after{
+  content: "Section";
+
+}
+aside::after{
+  content: "Aside";
+
+}
+footer::after{
+  content: "Footer";
+
+}
