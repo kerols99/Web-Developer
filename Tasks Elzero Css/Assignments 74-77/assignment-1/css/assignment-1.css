@@ -1,0 +1,60 @@
+div{
+    width: 50px;
+    height: 50px;
+    margin: 20px auto;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: #eee;
+    position: relative;
+    top: 300px;
+    border: 3px solid #d80055;
+    border-left-color:transparent;
+    animation-name:loop;
+    animation-duration: 5s;
+    animation-timing-function:linear ;
+    animation-iteration-count: infinite;
+    animation-play-state:paused ;
+}
+div::before{
+    content: "";
+    width: calc(100% + 15px);
+    height: calc(100% + 15px);
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid #24b4ff;
+    border-top-color:transparent ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation-name:loop;
+    animation-duration: 1s;
+    animation-timing-function:linear ;
+    animation-iteration-count: infinite;
+    animation-play-state:paused ;
+}
+div::after{
+    content: "";
+    width:calc(100% + 30px);
+    height: calc(100% + 30px);
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid #fcb400;
+    border-right-color:transparent ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation-name:loop;
+    animation-duration: 5s;
+    animation-timing-function:linear ;
+    animation-iteration-count: infinite;
+    animation-play-state:paused ;
+
+}
+
+@keyframes loop {
+    to{
+        transform: rotate(360deg);
+    }
+}
+/* div:hover{
+} */

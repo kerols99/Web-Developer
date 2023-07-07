@@ -1,0 +1,9 @@
+*{
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+.assignment-5 div:nth-child(2) p + div{
+    color: red;
+}
